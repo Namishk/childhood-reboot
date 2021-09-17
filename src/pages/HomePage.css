@@ -1,0 +1,33 @@
+
+
+.homeHead,.homeHeadBtn{
+    z-index: 1;
+    font-family: 'Irish Grover', cursive;
+    color: #EBFF00;
+    text-align: center;
+}
+
+.homeHead{
+    font-size: 8rem;
+}
+
+.homeHeadBtn{
+    font-size: 5rem;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+.homeHeadBtn:hover{
+    color: #fff;
+}
+
+.homepage::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+mix-blend-mode: darken;
+
+}
